@@ -686,6 +686,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		justify-content: center;
 	}
 
 		.row > * {
@@ -873,7 +874,6 @@ input, select, textarea {
 
 		.row {
 			margin-top: 0;
-			margin-left: -2.5em;
 		}
 
 			.row > * {
@@ -1116,7 +1116,6 @@ input, select, textarea {
 
 				.row {
 					margin-top: 0;
-					margin-left: -2.5em;
 				}
 
 					.row > * {
@@ -3123,9 +3122,9 @@ input, select, textarea {
 
 		.spotlight.left .content, .spotlight.right .content {
 			height: 101%;
-			padding: 6em 3em;
+			padding: 3em 3em;
 			top: 0;
-			width: 28em;
+			width: 29em;
 		}
 
 		.spotlight.left .content {
@@ -4109,4 +4108,52 @@ input, select, textarea {
 						padding: 0;
 					}
 
+	}
+
+	/* CUSTOM */
+
+	#form .container {
+		margin: 5em auto;
+	}
+
+	#form .container .col-8 {
+		background-color: #272833;
+		padding: 3em;
+	}
+
+	.card {
+		background-color: #272833;
+		padding: 2.5em 10px;
+		border: 10px solid #1c1d26;
+	}
+
+	.card h3 {
+		margin-bottom: 0px;
+	}
+
+	.box.alt {
+		padding-top: 200px
+	}
+
+	.display_photo {
+		width: 100%;
+		max-width: 300px;
+		margin-top: -200px;
+		position: relative;
+		border-radius: 50%;
+		border: 10px solid #272833;
+	}
+
+	@media screen and (max-width: 980px) {
+		.box.alt {
+			padding-top: 0px
+		}
+
+		.display_photo {
+			width: 100%;
+			max-width: 300px;
+			margin-top: 0px;
+			position: relative;
+			border-radius: 50%;
+		}
 	}
