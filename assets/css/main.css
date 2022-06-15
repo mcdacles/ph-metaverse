@@ -1,5 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 /*
 	Landed by HTML5 UP
@@ -99,7 +99,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
-		font-family: "Roboto", Helvetica, sans-serif;
+		font-family: 'Karla', sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
 		line-height: 1.75em;
@@ -135,7 +135,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -3452,10 +3452,10 @@ input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/fountain-1.jpeg");
+		background-image: url("../../images/building.jpg");
 		background-position: center center;
 		background-size: cover;
-		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
 		min-height: 100vh;
 		position: relative;
 		text-align: center;
@@ -4112,11 +4112,16 @@ input, select, textarea {
 
 	/* CUSTOM */
 
+	.banner__btn {
+		justify-content: center;
+		margin-left: 0px;
+	}
+
 	#form .container {
 		margin: 5em auto;
 	}
 
-	#form .container .col-8 {
+	#form .container .col-7 {
 		background-color: #272833;
 		padding: 3em;
 	}
